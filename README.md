@@ -1,6 +1,7 @@
 # S.O.L.I.D EM JAVA
 
  Princípios voltados para boas práticas de programação e orientação á objetos.
+ 
 
  Coesão: Os atributos da classe/objeto devem ter harmonia com a classe em si.
  
