@@ -1,9 +1,6 @@
 package com.solid;
 
-import com.solid.domain.Pedido;
-import com.solid.domain.Produto;
-import com.solid.domain.TipoPessoa;
-import com.solid.domain.Usuario;
+import com.solid.domain.*;
 import com.solid.service.PedidoService;
 
 import java.util.Arrays;
@@ -51,6 +48,11 @@ public class Main {
         System.out.println("-----------------------------------------------");
         System.out.println("Maiores pedidos de pessoas juridicas: " + pedidosPessoaJuridica);
         System.out.println("-----------------------------------------------");
+
+        //Liskov Substituion Principle
+        Funcionario funcionario1 = new Funcionario(1L,"Ryan","Caixa",1500.00);
+        Funcionario funcionario2 = new Funcionario(2L,"Lucas","Almoxarifado",1400.00);
+        System.out.println("Meus funcionarios: " + funcionario1 + funcionario2);
 
     }
 }
